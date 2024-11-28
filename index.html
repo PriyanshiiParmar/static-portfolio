@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div align="left">
+        <h1>Welcome to My Portfolio</h1>
+        <h2>Hi,I'm Priyanshi Parmar</h2>
+        <h3>I'm a dedicated computer science student at Acropolis Institute, specializing in full-stack development.</h3> 
+    </div>
+        <img class="profile-pic" src="profile.jpg" />
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>As passionate third-year undergraduate student at Acropolis Institute of Technology and Research, I am on a journey to become a proficient full-stack developer. My academic major in computer science has been a gateway to understanding the intricacies of technology, and it has fueled my curiosity and desire to dive deeper into the world of web development and software engineering.</p>
+        <p>From an early age, I have been fascinated by how things work, which naturally led me to the field of technology. My initial exposure to programming came through languages like HTML and CSS, which allowed me to create basic web pages. This sparked an interest that quickly evolved as I delved into JavaScript and React, enabling me to build more dynamic and interactive web applications. My proficiency in these technologies has been further enhanced by using Redux for state management and Tailwind CSS for designing responsive and aesthetically pleasing user interfaces.
+
+            My journey as a developer is marked by hands-on experience with various projects. Notably, I have built an online food delivery application using React, which involved managing complex state and ensuring a seamless user experience. Another significant project was a movie streaming platform integrated with AI recommendations, reflecting my interest in leveraging AI to enhance user engagement. These projects have not only honed my technical skills but also taught me the importance of user-centric design and robust backend infrastructure, even though I primarily focus on front-end development.</p>
+    </section>
+
+    <section id="projects" >
+        <h2>Projects</h2>
+        <div class="project">
+        <div class="">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3c/Netflix_UI_for_Web.png"/>
+            <h3>Netflix Clone</h3>
+            <p>Created a webApp for movie streaming app.</p>
+        </div>
+        <div class="">
+            <img src="  https://startuptrak.com/wp-content/uploads/2020/12/Swiggy-Food-Startup-758x423.jpg"/>
+            <h3>Food Ordering Website</h3>
+            <p>Created a food Ordering website like swiggy.</p>
+        </div>
+    </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action=""">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="_replyto" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 . All rights reserved.</p>
+    </footer>
+</body>
+</html>
